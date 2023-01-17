@@ -18,7 +18,7 @@ public class SDAList<E> implements List<E> {
     // E... elements - wypisywane elementow po przecinku (jest to tablica)
     //wrzycamy tam tablice E[] tylko deklarujemy ja wyypisujac elementy po przecinku
     public static <E> SDAList<E> of(E... elements) {
-        return new SDAList<>();
+        return new SDAList<>(elements);
     }
 
     @Override
@@ -47,6 +47,17 @@ public class SDAList<E> implements List<E> {
         emptyList.addAll(this.list);
         emptyList.addAll(collection);
         return emptyList;
+    }
+
+    @Override
+    public String toString() {
+        return list.toString();
+    }
+
+    @Override
+    public boolean addAll(Collection<? extends E> c) {
+        this.list.addAll(c);
+        return true;
     }
 
     //reszte mozna zaimplementowac samemu
@@ -86,10 +97,7 @@ public class SDAList<E> implements List<E> {
         return false;
     }
 
-    @Override
-    public boolean addAll(Collection<? extends E> c) {
-        return false;
-    }
+
 
     @Override
     public boolean addAll(int index, Collection<? extends E> c) {
