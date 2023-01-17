@@ -20,6 +20,7 @@ public class LambdaExample {
         //wyrazenie lambda
         Hospital ophthalmologist = () -> System.out.println("Okulista zaczyna leczyć");
         ophthalmologist.treat();
+        System.out.println(ophthalmologist.processDefault());
 
         /*
         Doctor doctor = new Doctor() {
@@ -38,10 +39,25 @@ public class LambdaExample {
         System.out.println(greetings);
 
         List<String> doctors = List.of("Damian", "Karol", "Matylda", "Tamara");
-        var editedList = editedDoctors(doctors, (s) -> "Hello " + s);
 
+        //wyrazenie lambda pozwala na dodanie do kazdego lekarza hello przed imieniem
+        var editedList = editedDoctors(doctors, (s) -> "Hello " + s);
         System.out.println(editedList);
+
+        //wyrazeie lambda pozwala na zliczenie liczby znakow w imieniu kazdego lekarza
+        var countedDoctorList = countedDoctors(doctors, String::length); //referencja do  metody
+        System.out.println(countedDoctorList);
     }
+
+
+    private static List<Integer> countedDoctors(List<String> doctors, IntegerFunctionalInterface functionalInterface){
+        var result = new ArrayList<Integer>();
+        for(String d : doctors){
+            result.add(functionalInterface.process(d));
+        }
+        return result;
+    }
+
 
     private static List<String> editedDoctors(List<String> doctors, Doctor doctor) {
         var result = new ArrayList<String>();
