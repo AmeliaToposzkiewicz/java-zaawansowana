@@ -41,7 +41,7 @@ public class ListExample {
         jest polinkowana
          */
         String s3 = "Nowy napis";
-        LinkedList <String> linkedList = new LinkedList<>();
+        LinkedList<String> linkedList = new LinkedList<>();
         linkedList.addFirst(s1);
         linkedList.addLast(s2);
         linkedList.add(s3);
@@ -51,6 +51,8 @@ public class ListExample {
         System.out.println(linkedList);
         linkedList.removeFirst();
         linkedList.removeLast();
+
+
     }
 
 
