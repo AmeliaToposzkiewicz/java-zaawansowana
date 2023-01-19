@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="generic types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/sorting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/sorting/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Training.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/generic/Exercise.java" afterDir="false" />
+    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="streams and optional">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/Atm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/AtmApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/OutOfMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/TooMuchMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optionals/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optionals/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -68,13 +68,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exercises">
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.generic.Exercise" />
+  <component name="RunManager" selected="Application.AtmApp">
+    <configuration name="AtmApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.atm.AtmApp" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.generic.*" />
+          <option name="PATTERN" value="exceptions.atm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.Exercise" />
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.MapExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionals.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collections.sorting.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.sorting.Main" />
+    <configuration name="exceptions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="collections.streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.streams.Main" />
-      <module name="java-zaawansowana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.streams.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercises" />
-        <item itemvalue="Application.collections.streams.Main" />
-        <item itemvalue="Application.collections.sorting.Main" />
-        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.AtmApp" />
+        <item itemvalue="Application.exceptions.Main" />
         <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673985411553</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="streams and optional">
+      <created>1674073256820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674073256821</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +259,18 @@
     <MESSAGE value="collections" />
     <MESSAGE value="generic" />
     <MESSAGE value="generic types" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic types" />
+    <MESSAGE value="streams and optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="streams and optional" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="exceptions.atm.OutOfMoneyException" package="exceptions.atm" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
