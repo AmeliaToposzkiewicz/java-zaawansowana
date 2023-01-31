@@ -3,34 +3,18 @@ package oop.showroom.service;
 import oop.showroom.model.Vehicle;
 import oop.showroom.repository.VehicleRepository;
 
-public class VehicleServiceImpl implements VehicleService {
+import java.util.List;
 
-    static int id = 0;
+public class VehicleServiceImpl implements VehicleService {
 
     @Override
     public void addVehicle(Vehicle vehicle) {
-        VehicleRepository.vehicles[id] = vehicle;
-        id++;
+        VehicleRepository.vehicles.add(vehicle);
     }
 
     @Override
-    public Vehicle[] getAllVehicles() {
+    public List<Vehicle> getAllVehicles() {
+       return VehicleRepository.vehicles;
 
-        Vehicle[] tab = VehicleRepository.vehicles;
-        int counter = 0;
-        for (Vehicle v : tab) {
-            if (v != null)
-                counter++;
-        }
-
-        Vehicle[] result = new Vehicle[counter];
-        int index = 0;
-        for (Vehicle v : tab) {
-            if (v != null) {
-                result[index] = v;
-                index++;
-            }
-        }
-        return result;
     }
 }

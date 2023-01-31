@@ -4,18 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="streams and optional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/Atm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/AtmApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/OutOfMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/atm/TooMuchMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/optionals/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/optionals/Main.java" afterDir="false" />
+    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="exceptions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/ExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/SDAThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop/showroom/service/VehicleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/QueueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/list/ListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/list/ListExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/MapExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/set/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/set/SetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/set/SetExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/set/SetExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/sorting/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/sorting/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/sorting/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Training.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/Atm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/AtmApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/AtmApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/ExceptionMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/ExceptionMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/OutOfMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/OutOfMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/TooMuchMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/TooMuchMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/generic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generic/SDAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/generic/SDAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/IntegerFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/IntegerFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Internist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Internist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/LambdaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/exercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/exercise/ProcessInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/exercise/ProcessInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/serialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/serialization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/serialization/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/serialization/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/optionals/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/optionals/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +98,33 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ameli/IdeaProjects/java-zaawansowana&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ameli/Desktop/zadania-109-master&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AtmApp">
+  <component name="RunManager" selected="Application.ExecutorServiceExample">
     <configuration name="AtmApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.atm.AtmApp" />
+      <option name="MAIN_CLASS_NAME" value="lecture.exceptions.atm.AtmApp" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.atm.*" />
+          <option name="PATTERN" value="lecture.exceptions.atm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.threads.ExecutorServiceExample" />
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,24 +133,11 @@
       </method>
     </configuration>
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optionals.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="lecture.optionals.Exercise" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optionals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.streams.Exercises" />
-      <module name="java-zaawansowana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.streams.*" />
+          <option name="PATTERN" value="lecture.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optionals.Main" />
+      <option name="MAIN_CLASS_NAME" value="lecture.exceptions.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optionals.*" />
+          <option name="PATTERN" value="lecture.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exceptions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.Main" />
+    <configuration name="lecture.threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.threads.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="lecture.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceExample" />
+        <item itemvalue="Application.lecture.threads.Main" />
         <item itemvalue="Application.AtmApp" />
-        <item itemvalue="Application.exceptions.Main" />
         <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674073256821</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="exceptions">
+      <created>1674160134011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674160134011</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +303,8 @@
     <MESSAGE value="generic" />
     <MESSAGE value="generic types" />
     <MESSAGE value="streams and optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="streams and optional" />
+    <MESSAGE value="exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
