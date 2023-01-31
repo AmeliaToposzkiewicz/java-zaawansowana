@@ -4,55 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/ExecutorServiceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/threads/SDAThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/showroom/service/VehicleServiceTest.java" afterDir="false" />
+    <list default="true" id="cfa0c9be-0030-437c-86ae-f4e642c8c2c8" name="Changes" comment="threads">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/reflection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/reflection/Sda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/exceptions/BadObjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/exceptions/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/exceptions/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/reflection/ReflectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/QueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/QueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/list/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/list/ListExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/map/MapExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/set/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/set/SetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/set/SetExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/set/SetExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/sorting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/sorting/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/sorting/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/sorting/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/streams/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/collections/streams/Training.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/Atm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/AtmApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/AtmApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/ExceptionMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/ExceptionMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/OutOfMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/OutOfMoneyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/atm/TooMuchMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/exceptions/atm/TooMuchMoneyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/generic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generic/SDAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/generic/SDAList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/IntegerFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/IntegerFunctionalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Internist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/Internist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/LambdaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/exercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/exercise/ProcessInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/exercise/ProcessInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/generic/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/lambda/generic/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/serialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/serialization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operationsIO/serialization/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/operationsIO/serialization/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/optionals/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/optionals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop/showroom/service/VehicleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop/showroom/service/VehicleServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -91,21 +59,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-Download Shared Index&quot;: &quot;Shared indexes available&quot;,
-    &quot;Notification.DoNotAsk-Download Shared Index&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ameli/Desktop/zadania-109-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Download Shared Index": "Shared indexes available",
+    "Notification.DoNotAsk-Download Shared Index": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ameli/IdeaProjects/java-zaawansowana",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.ExecutorServiceExample">
+}]]></component>
+  <component name="RunManager" selected="Application.lecture.reflection.Main">
     <configuration name="AtmApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.exceptions.atm.AtmApp" />
       <module name="java-zaawansowana" />
@@ -132,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.optionals.Exercise" />
-      <module name="java-zaawansowana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.optionals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.exceptions.Main" />
+      <option name="MAIN_CLASS_NAME" value="lecture.reflection.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.exceptions.*" />
+          <option name="PATTERN" value="lecture.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +126,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lecture.reflection" />
+      <option name="MAIN_CLASS_NAME" value="lecture.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lecture.reflection.Main" />
+        <item itemvalue="JUnit.ReflectionTest.test" />
         <item itemvalue="Application.ExecutorServiceExample" />
         <item itemvalue="Application.lecture.threads.Main" />
         <item itemvalue="Application.AtmApp" />
-        <item itemvalue="Application.Exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674160134011</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="threads">
+      <created>1675182536990</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675182536990</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +283,8 @@
     <MESSAGE value="generic types" />
     <MESSAGE value="streams and optional" />
     <MESSAGE value="exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
+    <MESSAGE value="threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="threads" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

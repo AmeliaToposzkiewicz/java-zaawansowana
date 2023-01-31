@@ -3,6 +3,7 @@ package oop.showroom.model;
 import oop.showroom.model.enums.*;
 
 public abstract class Vehicle {
+    private Long id;
     private BrandType brand;
     private ModelType model;
     private ColourType colour;
@@ -84,10 +85,19 @@ public abstract class Vehicle {
         isUsed = used;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" +
-                "brand=" + brand +
+                "id=" + id +
+                ", brand=" + brand +
                 ", model=" + model +
                 ", colour=" + colour +
                 ", engine=" + engine +
